@@ -14,7 +14,7 @@ pip install -e ".[degradation]"
 ## Analyze a range
 
 ```bash
-python -m experiment.degradation.cli analyze \
+python -m perf_analysis.degradation.cli analyze \
   --start-time 2026-09-08T09:00:00+08:00 \
   --end-time 2026-09-08T12:00:00+08:00
 ```
