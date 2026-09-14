@@ -20,7 +20,7 @@ Copy either prompt below, then fill in the baseline and detection time range.
 ```text
 开启劣化关联监控
 
-基线：<基线文件路径；留空表示从检测时间段内的前 30 个完整 step 生成>
+基线：<加载已有基线时填写基线文件路径；无可用基线时填写“重新训练基线”>
 检测时间段：<开始时间> 至 <结束时间>
 是否 reset：否
 ```
@@ -30,7 +30,7 @@ Copy either prompt below, then fill in the baseline and detection time range.
 ```text
 Start degradation association monitoring
 
-Baseline: <baseline file path; leave blank to train from the first 30 complete steps in the detection time range>
+Baseline: <enter the existing baseline file path to load it; if no baseline is available, enter "Retrain baseline">
 Detection time range: <start time> to <end time>
 Reset: No (default)
 ```
