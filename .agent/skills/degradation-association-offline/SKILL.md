@@ -5,7 +5,7 @@ description: "Analyze a user-selected time range from the local RL-Insight Prome
 
 # Offline degradation association
 
-Use the deterministic code in `perf_analysis/degradation`. Do not reimplement or
+Use the deterministic code in `recipe/perf_analysis/degradation`. Do not reimplement or
 change its KDE baseline, eight default targets, 3-of-5 event lifecycle,
 association ranking, or metric categories.
 
@@ -18,7 +18,7 @@ association tables.
 
 ## 1. Environment check
 
-Locate the checkout containing `perf_analysis/degradation/cli.py` and run commands
+Locate the checkout containing `recipe/perf_analysis/degradation/cli.py` and run commands
 from its repository root. If imports are missing, report them and ask before
 running `pip install -e ".[degradation]"`.
 
@@ -57,7 +57,7 @@ candidate evidence.
 Run the selected range once:
 
 ```bash
-python -m perf_analysis.degradation.cli analyze \
+python -m recipe.perf_analysis.degradation.cli analyze \
   --start-time <ISO-8601-or-Unix-seconds> \
   --end-time <ISO-8601-or-Unix-seconds>
 ```

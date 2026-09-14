@@ -51,7 +51,7 @@ def _range_name(start_time: float, end_time: float) -> str:
 
 def _parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        prog="python -m perf_analysis.degradation.cli",
+        prog="python -m recipe.perf_analysis.degradation.cli",
         description="Analyze one time range from the local RL-Insight TSDB.",
     )
     parser.add_argument("command", choices=("analyze",))
