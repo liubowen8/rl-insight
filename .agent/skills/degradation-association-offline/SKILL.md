@@ -20,7 +20,7 @@ association tables.
 
 Locate the checkout containing `recipe/perf_analysis/degradation/cli.py` and run commands
 from its repository root. If imports are missing, report them and ask before
-running `pip install -e ".[degradation]"`.
+running `pip install -e ".[recipe]"`.
 
 Use RL-Insight's default Prometheus TSDB at
 `~/.rl-insight/data/prometheus`. Use `analysis` as the report root unless the

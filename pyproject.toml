@@ -25,13 +25,10 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-degradation = [
+recipe = [
   "numpy",
   "scikit-learn",
   "scipy",
-]
-recipe = [
-  "numpy",
   "pandas",
   "plotly",
   "matplotlib",
