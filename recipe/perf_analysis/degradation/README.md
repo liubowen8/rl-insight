@@ -1,4 +1,4 @@
-﻿# Offline degradation association
+# Offline degradation association
 
 RL-Insight 的离线性能劣化分析模块（包名 `perf_analysis`）。对用户选定的时间
 范围，从本地 Prometheus TSDB 执行一次性的劣化检测与关联分析：拟合或加载
@@ -11,7 +11,7 @@ KDE 基线、按 3-of-5 规则跟踪 target 事件、对每个最终事件做 To
 ## 使用方式
 
 本模块对应的 Agent Skill 为
-[`degradation-association-offline`](../../.agent/skills/degradation-association-offline/SKILL.md)。
+[`degradation-association-offline`](../../../.agent/skills/degradation-association-offline/SKILL.md)。
 它会定位仓库、执行只读预检、调用 `perf_analysis` 完成分析，并把关联证据转成
 紧凑的 Markdown 报告与根因推断。
 
@@ -98,7 +98,7 @@ flowchart TD
 
 ## 参考文档
 
-- Skill 操作指南：[`degradation-association-offline/SKILL.md`](../../.agent/skills/degradation-association-offline/SKILL.md)
-- 算法契约：[`references/algorithm-contract.md`](../../.agent/skills/degradation-association-offline/references/algorithm-contract.md)
-- 指标中文释义：[`references/metric-name-catalog.md`](../../.agent/skills/degradation-association-offline/references/metric-name-catalog.md)
-- 根因经验参考：[`references/diagnostic-experience.md`](../../.agent/skills/degradation-association-offline/references/diagnostic-experience.md)
+- Skill 操作指南：[`degradation-association-offline/SKILL.md`](../../../.agent/skills/degradation-association-offline/SKILL.md)
+- 算法契约：[`references/algorithm-contract.md`](../../../.agent/skills/degradation-association-offline/references/algorithm-contract.md)
+- 指标中文释义：[`references/metric-name-catalog.md`](../../../.agent/skills/degradation-association-offline/references/metric-name-catalog.md)
+- 根因经验参考：[`references/diagnostic-experience.md`](../../../.agent/skills/degradation-association-offline/references/diagnostic-experience.md)

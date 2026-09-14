@@ -1,6 +1,6 @@
 # Metric Name Catalog
 
-This review file is generated from `perf_analysis/degradation/metrics.py`.
+This review file is generated from `recipe/perf_analysis/degradation/metrics.py`.
 It records each exact metric name together with a Chinese description for review.
 
 ## Summary
