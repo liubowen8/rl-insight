@@ -78,4 +78,6 @@ analysis has no `latest` or confirmed association phase. CLI stdout presents
 these final events grouped by metric category for model interpretation.
 `analysis.json` stores the complete CLI result, and the model saves its final
 Markdown table and diagnosis as `report.md`. Each table row includes the exact
-Chinese metric meaning from `metric-name-catalog.md` in this reference directory.
+Chinese metric meaning from
+[metric-name-catalog.md](../../../../docs/recipe/metrics/metric-name-catalog.md)
+in the docs directory.
