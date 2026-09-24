@@ -28,6 +28,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
+
 class SeriesDataError(ValueError):
     """Offline series data is malformed."""
 
@@ -165,6 +166,7 @@ def load_time_series(
 
 
 # --- Step alignment: Align Prometheus time series to training-step intervals. ---
+
 
 class WindowError(ValueError):
     """The input time series cannot form valid step frames."""

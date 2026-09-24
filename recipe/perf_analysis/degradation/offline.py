@@ -340,6 +340,7 @@ def analyze_offline(
         "events": present_events(analyzer.events),
     }
 
+
 # --- JSON persistence: Minimal JSON persistence for an offline baseline and analysis result. ---
 
 SCHEMA_VERSION = 1
@@ -549,6 +550,7 @@ def present_events(events: Sequence[Mapping[str, Any]]) -> list[dict[str, Any]]:
         event["association"] = {phase: association}
         presented.append(event)
     return presented
+
 
 __all__ = [
     "BaselineSnapshot",
